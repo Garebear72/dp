@@ -1,0 +1,30 @@
+body {
+
+}
+
+@font-face {
+    font-family: 'abc_ginto_nord_trialregular';
+    src: url('abcgintonord-regular-trial-webfont.woff2') format('woff2'),
+    url('abcgintonord-regular-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: 'abc_ginto_nord_trialregular', serif;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 95%;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+    text-align: center;
+}
+
+.btn-lg {
+transition: all 0.1s linear;
+}
+
+.btn-lg:hover {
+    transform: scale(1.05);
+}

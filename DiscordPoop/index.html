@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/styles.css" rel="stylesheet" />
+
+	<title>Hello, world!</title>
+</head>
+<body>
+<h1 style="position: absolute; top: 250px; right: 50%; transform: translateX(50%); color: white;">support for those affected by images of <span style="color: saddlebrown;">"poo"</span> on the internet</h1>
+<div class="container-fluid" style="background-color: #404eed;">
+	<img src="assets/e6d57714479874c665b36c7adee76b1d.svg" style="margin-left: -300px;">
+	<img src="assets/8a8375ab7908384e1fd6efe408284203.svg" style="position: absolute; top: 274px; right: 0%">
+	<img src="assets/c40c84ca18d84633a9d86b4046a91437.svg" style="position: absolute; top: 268px; left: 0%">
+</div>
+<div class="container-fluid" style="text-align: center; margin-top: 25px;">
+	<button onclick="myFunction()" class="btn-lg btn-dark"><h1>Click me for relief</h1></button>
+	<h5 id="button" style="margin-top: 10px;">420068 people have clicked me for relief :-)</h5>
+</div>
+
+<script>
+  var number = 420068;
+  var audio = new Audio(src="assets/zapsplat_human_fart_wet_dribbly_poop_001_54641.mp3")
+  function myFunction() {
+  	audio.play();
+	number += 1;
+	let numberEdited = number.toString();
+	console.log(numberEdited);
+    var el = document.getElementById("button").innerHTML = `${numberEdited} people have clicked me for relief :-)`
+  }
+
+</script>
+
+
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="./js/bootstrap.min.js"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+--></body>
+</html>
